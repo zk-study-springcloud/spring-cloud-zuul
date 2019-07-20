@@ -7,7 +7,7 @@ zuul:
   routes:
     hiapi:
       path: /hiapi/**
-      # 值自定义
+      # 鍊艰嚜瀹氫箟
       serviceid: hiapi-v1
 hiapi-v1:
   ribbon:
