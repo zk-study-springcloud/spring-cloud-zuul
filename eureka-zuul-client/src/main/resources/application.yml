@@ -9,6 +9,7 @@ zuul:
       path: /hiapi/**
       # 值自定义
       serviceid: hiapi-v1
+  prefix: /v1
 hiapi-v1:
   ribbon:
     listOfServers: http://localhost:8762,http://localhost:8763
