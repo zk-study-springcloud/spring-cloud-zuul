@@ -19,6 +19,7 @@ import java.io.InputStream;
 public class MyFallbackProvider implements FallbackProvider {
     @Override
     public String getRoute() {
+        // 如果想所有路由全部使用hystrix，把eureka-client替换为*即可
         return "eureka-client";
     }
 
